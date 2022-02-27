@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header/Blog titile*/
+header{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background:#EEEEEE ;
+    line-height: 40px;
+}
+
+.logo{
+    text-align: center;
+    font-size: 80px;
+    color: #9B0000;
+    font-weight: bold;
+    background: white;
+    top:50px;
+    text-decoration: none;
+}
+
+/* Style the to navigation bar*/
+.menu nav{
+    text-align: center;
+    top: 20px;
+    height: 40px ;
+    line-height: 40px;
+    background: #EEEEEE;
+}
+/* Định dạng link điều hướng*/
+.menu nav a{
+    color: black;
+    margin: 0 20px;
+    text-decoration: none;
+}
+.menu .login i{
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+    position: absolute;
+    right: 30px;
+    top: 143px;
+    text-decoration: none;
+    color: black;
+}
+/*Thay đổi màu liên kết khi di chuột qua*/
+.menu nav a:hover{
+    color:#FFBD35;
+    font-weight: bold ;
+}
+
+/*CSS phần liên hệ*/
+#main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+}
+
+#main .box-1{
+    width: 70%;
+}
+#main .box-1 img{
+    width:60%;
+    margin-left: 30%;
+    line-height: 1.3;
+    color: #fff;
+    padding: 40px 0;
+}
+#main .box-2{
+    margin-left: 30px;
+}
+#main .box-2 .text-box-1{
+    margin-bottom: 200px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+#map{
+    margin: 1px 0;
+}
+.row-7 {
+    display: flex;
+    background-color: #af9688;
+    margin-bottom: 1px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.left-row-7 {
+    width: 60%;
+    padding: 20px;
+}
+
+.left-row-7 h2 {
+    font-size: 100px;
+}
+
+.left-row-7 p {
+    font-size: 30px;
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    background: #EEEEEE;
+    text-align: center;
+}
+
+footer .footer-item{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+footer .footer-item h3{
+    margin: 20px 0;
+}
+
+
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.tacgia{
+    background: #9B0000;
+    color: white;
+    text-align: center;
+}
+
+footer .link a:hover{
+    color: #FFBD35;
+}
+
+.backtotop{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+.backtotop a{
+    padding: 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    background: red;
+}

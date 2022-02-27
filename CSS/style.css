@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header/Blog titile*/
+header{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background:#EEEEEE ;
+    line-height: 40px;
+}
+
+.logo{
+    text-align: center;
+    font-size: 80px;
+    color: #9B0000;
+    font-weight: bold;
+    background: white;
+    top:50px;
+    text-decoration: none;
+}
+
+/* Style the to navigation bar*/
+.menu nav{
+    text-align: center;
+    top: 20px;
+    height: 40px ;
+    line-height: 40px;
+    background: #EEEEEE;
+}
+/* Định dạng link điều hướng*/
+.menu nav a{
+    color: black;
+    margin: 0 20px;
+    text-decoration: none;
+}
+.menu .login i{
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+    position: absolute;
+    right: 30px;
+    top: 143px;
+    text-decoration: none;
+    color: black;
+}
+/*Thay đổi màu liên kết khi di chuột qua*/
+.menu nav a:hover{
+    color:#FFBD35;
+    font-weight: bold ;
+}
+
+/*Banner website*/
+.banner{
+    width: 100%;
+    margin: 0 auto;
+}
+.banner img{
+    max-width: 100%;
+}
+
+/* Heading trang web*/
+.heading{
+    font-size: 28px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+/*CSS cho sản phẩm*/
+.product .list-product .product-item{
+    width: 22%;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.product .list-product .product-item img{
+    max-width: 100%;
+}
+
+.product .list-product .product-item img:hover{
+    box-shadow: 10px 10px 10px 0 rgba(173, 16, 16, 0.1);
+}
+
+/*css tin tức*/
+.tintuc .new-item{
+    width: 30%;
+    margin: 20px 20px;
+    display: inline-block;
+}
+
+.tintuc .new-item img{
+    max-width: 100%;
+}
+
+.tintuc .new-item a{
+    color: black;
+    text-decoration: none;
+}
+
+.tintuc .new-item a:hover{
+    color: #FFBD35;
+
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    background: #EEEEEE;
+    text-align: center;
+}
+
+footer .footer-item{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+footer .footer-item h3{
+    margin: 20px 0;
+}
+
+
+footer .link a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.tacgia{
+    background: #9B0000;
+    color: white;
+    text-align: center;
+}
+
+footer .link a:hover{
+    color: #FFBD35;
+}
+
+.backtotop{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+.backtotop a{
+    padding: 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    background: red;
+}
